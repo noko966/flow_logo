@@ -1,0 +1,17 @@
+:root{
+    --bodyBg: #1e1e1e;
+    --bodyTxt: #fff;
+    --bodyTxt2: #ccc;
+
+
+}
+
+body{
+    background-color: var(--bodyBg);
+    color: var(--bodyTxt);
+}
+
+.svg_anim_container{
+    width: 100%;
+    margin: 0 auto;
+}
