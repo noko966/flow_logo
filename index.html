@@ -12,7 +12,10 @@
 
 <body>
 
-    <div class="svg_anim_container"></div>
+    <div class="logo_anim_container"></div>
+
+    <div class="success_anim_container"></div>
+
     <!-- <lottie-player class="logo_svg" src="./data/flow_1.json"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player> -->
 
 
@@ -24,12 +27,20 @@
 
 <script>
     var logoAnim = lottie.loadAnimation({
-        container: document.querySelector(".svg_anim_container"),
+        container: document.querySelector(".logo_anim_container"),
         renderer: 'svg',
         loop: true,
         autoplay: true,
         path: 'data/flow_2.json',
+    });
 
+
+    var successAnim = lottie.loadAnimation({
+        container: document.querySelector(".success_anim_container"),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'data/success.json',
     });
 
     // logoAnim.onComplete = function (e) { 

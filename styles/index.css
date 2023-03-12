@@ -11,7 +11,13 @@ body{
     color: var(--bodyTxt);
 }
 
-.svg_anim_container{
+.logo_anim_container{
     width: 100%;
+    margin: 0 auto;
+}
+
+
+.success_anim_container{
+    width: 230px;
     margin: 0 auto;
 }
